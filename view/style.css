@@ -1,0 +1,51 @@
+.clear{
+	width: 100%;
+	position: relative;
+	float: left;
+	clear: both;
+}
+.rl{
+	width: 100%;
+	position: relative;
+	float: left;
+}
+p{
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+.pT_20{
+	padding-top: 20px;
+}
+.field{
+	width: 120px;
+	height: 120px;
+	position: relative;
+	float: left;
+}
+.field_2{
+	margin-left: 30px;
+}
+.field div, .field input[type=checkbox]{
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	float: left;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+}
+.field input[type=checkbox]{
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+}
+input[type=submit]{
+	cursor: pointer;
+}
+.btn_ready{
+	position: absolute;
+	left: 0;
+	bottom: -40px;
+	z-index: 1;
+}
